@@ -12,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<BasicTable />} />
+          <Route path="/sd" element={<h1>Yes</h1>} />
         </Routes>
       </main>
     </Router>
